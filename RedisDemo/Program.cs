@@ -82,10 +82,6 @@ namespace RedisDemo
             Console.WriteLine("age:" + age);
 
             Console.WriteLine("end trans");
-
-
         }
-
-
     }
 }

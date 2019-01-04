@@ -9,6 +9,8 @@ namespace ConcurrentCollectionExample
             Console.WriteLine("**********并发集合使用***************");
             // ConcurrentQueue
             ConcurrentQueueEx1.GetProductsCount();
+
+
             Console.ReadKey();
         }
     }

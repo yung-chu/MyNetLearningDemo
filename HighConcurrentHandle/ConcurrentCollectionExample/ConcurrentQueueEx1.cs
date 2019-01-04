@@ -21,8 +21,7 @@ namespace ConcurrentCollectionExample
            var task3 = Task.Factory.StartNew(AddProducts);
            Task.WaitAll(task1, task2, task3);//同步执行
 
-          Console.WriteLine(Products.Count);
-           
+           Console.WriteLine(Products.Count);
         }
 
         private static void AddProducts()

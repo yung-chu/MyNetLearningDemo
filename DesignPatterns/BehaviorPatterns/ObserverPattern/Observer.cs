@@ -33,7 +33,9 @@ namespace ObserverPattern
         }
     }
 
-
+    /// <summary>
+    /// 具体观察者
+    /// </summary>
     public class WatchMovie : Observer
     {
         private string Name { get; set; }
