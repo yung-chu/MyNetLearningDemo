@@ -9,8 +9,9 @@ namespace ConcurrentCollectionExample
     /// <summary>
     /// https://blog.csdn.net/q3585914/article/details/79231268 
     /// </summary>
-    public class ConcurrentQueueEx1
+    public class ConcurrentQueueExample
     {
+        
         //private static readonly IList<Product> Products = new List<Product>();
         private static readonly ConcurrentQueue<Product> Products = new ConcurrentQueue<Product>();
 

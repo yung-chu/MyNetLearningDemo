@@ -29,15 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqConsumer", "HighConcurren
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "HighConcurrentHandle\秒杀抢购\WebApplication\WebApplication.csproj", "{890099FE-AD5A-41FD-97D4-ABD87518A6AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatterns", "DesignPatterns\StructurePatterns\AdapterPatterns\AdapterPatterns.csproj", "{871304F2-13D1-4985-8E22-248499538B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPatterns", "DesignPatterns\StructurePatterns\AdapterPatterns\AdapterPatterns.csproj", "{871304F2-13D1-4985-8E22-248499538B40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DesignPatterns\StructurePatterns\DecoratorPattern\DecoratorPattern.csproj", "{562B7D01-FDE5-430C-A45C-2468844F2E92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DesignPatterns\StructurePatterns\DecoratorPattern\DecoratorPattern.csproj", "{562B7D01-FDE5-430C-A45C-2468844F2E92}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{704A55EC-4DEC-49F3-A2D3-AB2012A51BC1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EasyNetQ", "EasyNetQ", "{A1D2067E-ECF3-4640-9A09-203CFDC8E584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQDemo", "Queue\EasyNetQ\EasyNetQDemo\EasyNetQDemo.csproj", "{5FB24A02-9CEA-4691-8713-552D84D162DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyNetQDemo", "Queue\EasyNetQ\EasyNetQDemo\EasyNetQDemo.csproj", "{5FB24A02-9CEA-4691-8713-552D84D162DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "DesignPatterns\BehaviorPatterns\StrategyPattern\StrategyPattern.csproj", "{A80A14C2-3EFE-4713-94E6-50A30FAE46EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{5FB24A02-9CEA-4691-8713-552D84D162DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FB24A02-9CEA-4691-8713-552D84D162DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB24A02-9CEA-4691-8713-552D84D162DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80A14C2-3EFE-4713-94E6-50A30FAE46EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80A14C2-3EFE-4713-94E6-50A30FAE46EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80A14C2-3EFE-4713-94E6-50A30FAE46EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80A14C2-3EFE-4713-94E6-50A30FAE46EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{562B7D01-FDE5-430C-A45C-2468844F2E92} = {D37DCD51-5605-4D41-96E3-21BD46B5AF1C}
 		{A1D2067E-ECF3-4640-9A09-203CFDC8E584} = {704A55EC-4DEC-49F3-A2D3-AB2012A51BC1}
 		{5FB24A02-9CEA-4691-8713-552D84D162DE} = {A1D2067E-ECF3-4640-9A09-203CFDC8E584}
+		{A80A14C2-3EFE-4713-94E6-50A30FAE46EF} = {FF0C31D8-8160-4192-89DE-1C3E5CDD1EC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37A37B9D-EBD3-4354-B62F-F0ED9AB47C9D}
